@@ -1,0 +1,44 @@
+= Daniel Haas
+
+~~~
+{}{img_left}{img/Daniel_Haas_lq.jpg}{Daniel Haas}{200px}{233px}{http://cs.berkeley.edu/~dhaas/}
+[http://cs.berkeley.edu/~dhaas/ Daniel Haas], Graduate Student\n
+[http://amplab.cs.berkeley.edu/ Algorithms, Machines, and People Lab]\n
+[http://eecs.berkeley.edu/ University of California, Berkeley]\n
+Advisor: [http://www.cs.berkeley.edu/~franklin/ Michael Franklin]
+
+Email: [dhaas@cs.berkeley.edu]
+{{<a href="http://twitter.com/thisisdhaas" class="twitter-follow-button" data-show-count="false">Follow @thisisdhaas</a>}}
+{{<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>}}
+~~~
+
+== About Me
+I am a second year Ph.D. student working with [http://www.cs.berkeley.edu/~franklin/ Prof. Michael Franklin] on putting the 'P' in [http://amplab.cs.berkeley.edu/ AMP]: that is, taking a systems-oriented approach to using human computation to solve problems in big data. Previously, I worked at the [http://chip.org/IHLab Intelligent Health Laboratory] in the [http://chip.org Children's Hospital Informatics Program] at [http://www.childrenshospital.org/ Boston Children's Hospital] designing storage systems, dataflows, and applications for managing patient information, particularly [http://indivohealth.org/ Indivo], an open-source personally controlled health record system. I completed my undergraduate education in the [http://seas.harvard.edu/computer-science School of Engineering and Applied Sciences] at [http://harvard.edu Harvard University] in 2010.
+
+I am supported by the [http://www.nsfgrfp.org/ National Science Foundation Graduate Research Fellowship Program] from 2012--2015.
+
+== Education
+- Ph.D., Computer Science, [http://eecs.berkeley.edu University of California, Berkeley], Fall 2012--Present
+
+- A.B. Cum Laude, Computer Science, [http://seas.harvard.edu/computer-science Harvard University], Spring 2010
+
+== Recent Publications
+- *Daniel Haas*, Matthew Greenstein, Kainar Kamalov, Adam Marcus, Marek Olszewski, Marc Piette. [papers/HCOMP2013ReducingTaskError.pdf Reducing Error in Context-Sensitive Crowdsourced Tasks]. [http://www.humancomputation.com/2013/ AAAI HCOMP 2013], Palm Springs, California. ([supporting/HCOMP2013MicroTalk.mp4 Microtalk Video]).
+
+- Travers Franckle, *Daniel Haas*, Kenneth Mandl. [papers/AMIACRI2013IndivoSMART.pdf App Store for EHRs and Patients Both]. [http://www.amia.org/jointsummits2013 2013 AMIA Summit on Clinical Research Informatics], San Francisco, California.
+
+== Selected Talks
+
+- *Life after Microtasks: Reducing Error in Locu's crowdsourced work.* [http://amplab.cs.berkeley.edu AMPLab All Hands Meeting], Berkeley, California. October 2013.
+
+- *TaskGrader: Predictive Modeling of Human Task Error.* [http://locu.com Locu Inc.], Cambridge, Massachusetts. July 2013.
+
+- *CrowdQ: A Search Engine with Crowdsourced Query Understanding.* [http://amplab.cs.berkeley.edu AMPLab Winter Retreat], Squaw Valley, California. January 2013.
+
+- *Indivo X: The Open-Source Personally Controlled Health Record Platform.* [http://www.oscon.com/oscon2011 O'Reilly Open Source Convention (OSCON)], Portland, Oregon. July 2011.
+
+== Teaching
+- Fall 2013, [http://www-inst.eecs.berkeley.edu/~cs186/fa13 CS 186: Intro to Database Systems] with [http://www.cs.berkeley.edu/~franklin/ Michael Franklin] 
+
+#== Miscellaneous
+# Coming soon!
