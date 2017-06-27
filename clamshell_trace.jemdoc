@@ -9,4 +9,4 @@ The trace is available on this website {{<a href="data/clamshell_trace.json" tar
 The trace is available as a JSON object with 3 keys: (describe more).
 
 == About the Trace
-(describe experimental conditions).
+The trace was extracted from a live deployment of low-latency retainer pools for simple labeling tasks on MTurk described in (REF CLAMShell Paper). It consists of three streams of data in chronological order: the worker recruitment times for all new workers who joined the pool (n=6126 recruitments, mean time 91.3 seconds, standard deviation 113.9 seconds), the task duration for all tasks processed in the pool (n=67254 tasks, mean time 1.97 seconds, standard deviation 0.87 seconds), and the duration that workers remained in the pool before abandoning it (n=2999 abandonments, mean time 316.6 seconds, standard deviation 211.1 seconds).
