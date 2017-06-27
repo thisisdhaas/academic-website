@@ -1,0 +1,12 @@
+= CLAMShell Crowd Execution Trace
+
+This page describes an execution trace derived from a deployment of the [https://amplab.github.io/ampcrowd AMPCrowd] system on MTurk running simple data labeling tasks. The trace is described in detail in (REF Cioppino paper).
+
+== Get the Trace
+The trace is available on this website [here data/clamshell_trace.json].
+
+== Data structure
+The trace is available as a JSON object with 3 keys: (describe more).
+
+== About the Trace
+(describe experimental conditions).
