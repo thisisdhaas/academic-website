@@ -336,7 +336,7 @@ I was supported by the <a href="http://www.nsfgrfp.org/">National Science Founda
     // populates publication section
     $.getJSON('pubs.json', function(data) {
         $.each(data.pubs, function(pub) {
-            alert(pub);
+            alert(pub.title);
         });
     });
     </script>
