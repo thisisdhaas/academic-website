@@ -238,7 +238,7 @@ hr.small {
     min-height:300px;
     padding: 10px 10px;
     text-decoration: none;
-    color: #333 !important;
+    color: #ffffff !important;
 }
 
 .img-portfolio {
@@ -283,7 +283,20 @@ hr.small {
 /* Footer */
 
 footer {
-    padding: 100px 0;
+    padding: 10px 0;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #ffffff !important;
+}
+
+.footer-link:hover {
+    text-decoration: none;
+}
+
+.copyright {
+    color: #333;
 }
 
 #to-top {

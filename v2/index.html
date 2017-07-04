@@ -44,13 +44,13 @@
                 <a href="#about" onclick=$("#menu-close").click();>About</a>
             </li>
             <li>
-                <a href="#services" onclick=$("#menu-close").click();>Services</a>
+                <a href="#services" onclick=$("#menu-close").click();>Publications</a>
             </li>
             <li>
                 <a href="#portfolio" onclick=$("#menu-close").click();>Projects</a>
             </li>
             <li>
-                <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
+              <a href="#personal" onclick=$("#menu-close").click();>Personal</a>
             </li>
         </ul>
     </nav>
@@ -107,29 +107,7 @@ I was supported by the <a href="http://www.nsfgrfp.org/">National Science Founda
                 <div class="col-lg-10 col-lg-offset-1">
                     <h2>Publications</h2>
                     <hr class="small">
-                    <div class="row">
-                      <div class="col-md-12 bg-info highlight-row">
-                        <div class="publication">
-                          <h4><strong>Wisteria: Nurturing Scalable Data Cleaning Infrastructure (Demo)</strong></h4>
-                          <p class="authors">Daniel Haas, Sanjay Krishnan, Jiannan Wang, Michael J. Franklin, and Eugene Wu.</p>
-                          <p class="authors">
-                            <a href="http://www.vldb.org/2015/" class="paper-link">VLDB 2015</a>
-                            <a href="#" class="paper-link"><i class="fa fa-file-pdf-o fa-fw"></i></a>
-                            <a href="#" class="paper-link"><i class="fa fa-file-powerpoint-o fa-fw"></i></a></p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-md-12 bg-info highlight-row">
-                        <div class="publication">
-                          <h4><strong>Wisteria: Nurturing Scalable Data Cleaning Infrastructure (Demo)</strong></h4>
-                          <p class="authors">Daniel Haas, Sanjay Krishnan, Jiannan Wang, Michael J. Franklin, and Eugene Wu.</p>
-                          <p class="authors">
-                            <a href="http://www.vldb.org/2015/" class="paper-link">VLDB 2015</a>
-                            <a href="#" class="paper-link"><i class="fa fa-file-pdf-o fa-fw"></i></a>
-                            <a href="#" class="paper-link"><i class="fa fa-file-powerpoint-o fa-fw"></i></a></p>
-                        </div>
-                      </div>
+                    <div class="row" id="pubList">
                     </div>
                     <!-- /.row (nested) -->
                 </div>
@@ -139,13 +117,6 @@ I was supported by the <a href="http://www.nsfgrfp.org/">National Science Founda
         </div>
         <!-- /.container -->
     </section>
-
-    <!-- Callout -->
-    <aside class="callout">
-        <div class="text-vertical-center">
-            <h1>Vertically Centered Text</h1>
-        </div>
-    </aside>
 
     <!-- Portfolio -->
     <section id="portfolio" class="portfolio">
@@ -218,60 +189,38 @@ I was supported by the <a href="http://www.nsfgrfp.org/">National Science Founda
         <!-- /.container -->
     </section>
 
-    <!-- Call to Action -->
-    <aside class="call-to-action bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3>The buttons below are impossible to resist.</h3>
-                    <a href="#" class="btn btn-lg btn-light">Click Me!</a>
-                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
-                </div>
-            </div>
+    <!-- Callout -->
+    <aside class="callout">
+        <div class="text-vertical-center">
+            <h2 id="personal">Personal</h2>
         </div>
     </aside>
 
-    <!-- Map -->
-    <section id="contact" class="map">
-        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
-        <br />
-        <small>
-            <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-        </small>
-    </section>
-
-    <!-- Footer -->
-    <footer>
+    <!-- Personal -->
+    <section id="personal-body" class="about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Start Bootstrap</strong>
-                    </h4>
-                    <p>3481 Melrose Place
-                        <br>Beverly Hills, CA 90210</p>
-                    <ul class="list-unstyled">
-                        <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">name@example.com</a>
-                        </li>
-                    </ul>
-                    <br>
-                    <ul class="list-inline">
-                        <li>
-                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
-                        </li>
-                    </ul>
-                    <hr class="small">
-                    <p class="text-muted">Copyright &copy; Your Website 2014</p>
+                <div class="col-lg-12 text-center">
+                    <h2>Personal details</h2>
+                    <p class="lead"> I am a fourth year Ph.D. student working with <a href="http://www.cs.berkeley.edu/~franklin/">Prof. Michael Franklin</a> on putting the 'P' in <a href="http://amplab.cs.berkeley.edu/">AMP</a>: that is, taking a systems-oriented approach to using human computation to solve problems in big data. Previously, I worked at the <a href="http://chip.org/IHLab">Intelligent Health Laboratory</a> in the <a href="http://chip.org">Children's Hospital Informatics Program</a> at <a href="http://www.childrenshospital.org/">Boston Children's Hospital</a> designing storage systems, dataflows, and applications for managing patient information, particularly <a href="http://indivohealth.org/">Indivo</a>, an open-source personally controlled health record system. I completed my undergraduate education in the <a href="http://seas.harvard.edu/computer-science">School of Engineering and Applied Sciences</a> at <a href="http://harvard.edu">Harvard University</a> in 2010.
+
+I was supported by the <a href="http://www.nsfgrfp.org/">National Science Foundation Graduate Research Fellowship Program</a> from 2012--2015.</p>
                 </div>
             </div>
+            <!-- /.row -->
         </div>
-        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+        <!-- /.container -->
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="bg-primary">
+      <div class="text-center">
+        <h4>Theme courtesy of <a href="https://startbootstrap.com/template-overviews/stylish-portfolio/" class="footer-link"><strong>Start Bootstrap</strong></a>
+        </h4>
+        <p class="copyright">Copyright &copy; Daniel Haas 2017</p>
+      </div>
+      <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
     </footer>
 
     <!-- jQuery -->
@@ -334,9 +283,44 @@ I was supported by the <a href="http://www.nsfgrfp.org/">National Science Founda
     });
 
     // populates publication section
-    $.getJSON('pubs.json', function(data) {
-        $.each(data.pubs, function(pub) {
-            alert(pub.title);
+    function build_html(pub) {
+        var outer = $("<div>").addClass("col-md-12 bg-info highlight-row");
+        var inner = $("<div>").addClass("publication");
+        var header = $("<h4>").append($("<strong>").text(pub.title));
+        var authors = $("<p>").addClass("authors").text(pub.authors);
+        var linkp = $("<p>").addClass("authors");
+        linkp.append($("<a>")
+                     .attr("href", pub.confLink)
+                     .attr("target", "_blank")
+                     .addClass("paper-link")
+                     .text(pub.conference));
+        if (pub.pdfLink) {
+            linkp.append($("<a>")
+                         .attr("href", pub.pdfLink)
+                         .addClass("paper-link")
+                         .append($("<i>").addClass("fa fa-file-pdf-o fa-fw")));
+        }
+        if (pub.pptLink) {
+            linkp.append($("<a>")
+                         .attr("href", pub.pptLink)
+                         .addClass("paper-link")
+                         .append($("<i>").addClass("fa fa-file-powerpoint-o fa-fw")));
+        }
+        if (pub.videoLink) {
+            linkp.append($("<a>")
+                         .attr("href", pub.videoLink)
+                         .addClass("paper-link")
+                         .append($("<i>").addClass("fa fa-file-video-o fa-fw")));
+        }
+        return outer.append(inner.append(header).append(authors).append(linkp));
+    }
+
+    $(document).ready(function(){
+        $.getJSON('pubs.json', function(data) {
+            $.each(data.pubs, function(index, pub) {
+                console.log(pub);
+                $("#pubList").append(build_html(pub));
+            });
         });
     });
     </script>
