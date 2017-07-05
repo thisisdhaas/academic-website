@@ -32,6 +32,22 @@
 
 <body>
 
+  <!-- Bibtex Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <a href="#" class="btn btn-light pull-right close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times"></i></a>
+          <h3 class="modal-title" id="myModalLabel">Bibtex</h3>
+        </div>
+        <div class="modal-body">
+          <pre id="bibtex-modal-body">
+          </pre>
+        </div>
+      </div>
+    </div>
+  </div>
+
     <!-- Navigation -->
     <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
     <nav id="sidebar-wrapper">
@@ -323,6 +339,10 @@
     });
 
     // populates publication section
+    function show_bibtex(bibtex){
+      $("#bibtex-modal-body").text(bibtex);
+    }
+
     function build_html(pub) {
         var outer = $("<div>").addClass("col-md-12 bg-info highlight-row");
         var inner = $("<div>").addClass("publication");
@@ -337,20 +357,32 @@
         if (pub.pdfLink) {
             linkp.append($("<a>")
                          .attr("href", pub.pdfLink)
+                         .attr("title", "PDF")
                          .addClass("paper-link")
-                         .append($("<i>").addClass("fa fa-file-pdf-o fa-fw")));
+                         .append($("<i>").addClass("fa fa-file-pdf-o fa-fw fa-lg")));
         }
         if (pub.pptLink) {
             linkp.append($("<a>")
                          .attr("href", pub.pptLink)
+                         .attr("title", "Slides")
                          .addClass("paper-link")
-                         .append($("<i>").addClass("fa fa-file-powerpoint-o fa-fw")));
+                         .append($("<i>").addClass("fa fa-file-powerpoint-o fa-fw fa-lg")));
         }
         if (pub.videoLink) {
             linkp.append($("<a>")
                          .attr("href", pub.videoLink)
+                         .attr("title", "Video")
                          .addClass("paper-link")
-                         .append($("<i>").addClass("fa fa-file-video-o fa-fw")));
+                         .append($("<i>").addClass("fa fa-file-video-o fa-fw fa-lg")));
+        }
+        if (pub.bibtex) {
+            linkp.append($("<a>")
+                         .attr("href", "#")
+                         .attr("data-toggle", "modal")
+                         .attr("data-target","#myModal")
+                         .attr("title", "BiBTeX")
+                         .append($("<i>").addClass("fa fa-book fa-fw fa-lg"))
+                         .click(function(){show_bibtex(pub.bibtex);}));
         }
         return outer.append(inner.append(header).append(authors).append(linkp));
     }
@@ -358,7 +390,6 @@
     $(document).ready(function(){
         $.getJSON('pubs.json', function(data) {
             $.each(data.pubs, function(index, pub) {
-                console.log(pub);
                 $("#pubList").append(build_html(pub));
             });
         });
