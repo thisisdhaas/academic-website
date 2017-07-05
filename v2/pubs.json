@@ -45,7 +45,7 @@
       "title": "Wisteria: Nurturing Scalable Data Cleaning Infrastructure (Demo)",
       "authors": "Daniel Haas, Sanjay Krishnan, Jiannan Wang, Michael J. Franklin, and Eugene Wu.",
       "pdfLink": "papers/VLDB2015Wisteria.pdf",
-      "pptLink": null,
+      "pptLink": "supporting/Twitter2015Sampleclean.pptx",
       "conference": "VLDB 2015",
       "confLink": "http://www.vldb.org/2015/",
       "videoLink": null,
